@@ -1,7 +1,3 @@
-* {
-  list-style: none;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
@@ -31,11 +27,19 @@ p {
 ul {
   margin: 0;
   padding-left: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  display: block;
+  padding: 24px 0;
+  text-decoration: none;
 }
 
 .container {
-  display: flex;
   max-width: 1158px;
-  align-items: center;
-  justify-content: center;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }

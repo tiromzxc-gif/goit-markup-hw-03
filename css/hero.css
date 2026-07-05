@@ -1,9 +1,6 @@
 .hero-main {
   color: #ffffff;
   background-color: #2e2f42;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 188px 141px;
 }
 
@@ -39,7 +36,10 @@
   background-color: #404bbf;
 }
 
-.hero-main .container {
+.container-hero {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 48px;
 }

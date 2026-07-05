@@ -11,13 +11,6 @@
 
 .features-section {
   padding: 120px 141px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.features-section .container {
-  padding: 0 15px;
 }
 
 .list-one {

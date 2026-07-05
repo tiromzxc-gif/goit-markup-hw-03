@@ -31,13 +31,11 @@
 
 .team-section {
   background-color: #f4f4fd;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 120px 141px;
 }
 
-.team-section .container {
+.container-team {
+  display: flex;
   flex-direction: column;
   gap: 72px;
 }
@@ -45,7 +43,6 @@
 .list-two {
   display: flex;
   gap: 24px;
-  padding: 0 15px;
 }
 
 .team-man {

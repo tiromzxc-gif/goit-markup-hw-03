@@ -3,29 +3,21 @@
   letter-spacing: 0.02em;
   margin: 0px;
 }
-.logo {
+.logo.footer {
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  padding: 0;
 }
 
 .footer-part {
   background-color: #2e2f42;
   color: #f4f4fd;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 100px 141px;
 }
 
-.footer-part .container {
-  width: 100%;
-  padding: 0 15px;
-  justify-content: flex-start;
-}
-
-.container-small {
-  max-width: 264px;
-  gap: 16px;
+.container-footer {
   display: flex;
   flex-direction: column;
+  gap: 16px;
+  width: 264px;
 }
