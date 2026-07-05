@@ -58,20 +58,16 @@ a {
   text-decoration: underline;
 }
 
-header {
+.main-header {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-header .container {
-  display: flex;
-  align-items: center;
+.main-header .container {
   justify-content: space-between;
-  max-width: 1158px;
   width: 100%;
-  padding: 24px 15px;
 }
 
 .menu {
@@ -82,9 +78,11 @@ header .container {
 .contacts-list {
   display: flex;
   gap: 40px;
+  padding: 24px 15px;
 }
 
-header nav {
+.main-header .navig {
   margin-left: 76px;
   flex-grow: 1;
+  padding: 24px 15px;
 }

@@ -18,9 +18,9 @@
 }
 
 .footer-part .container {
-  max-width: 1158px;
   width: 100%;
   padding: 0 15px;
+  justify-content: flex-start;
 }
 
 .container-small {

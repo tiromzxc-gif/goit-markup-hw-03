@@ -26,6 +26,7 @@
 
 .team-blocks {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
 }
 
 .team-section {
@@ -37,8 +38,6 @@
 }
 
 .team-section .container {
-  max-width: 1158px;
-  display: flex;
   flex-direction: column;
   gap: 72px;
 }
@@ -54,4 +53,8 @@
   flex-direction: column;
   gap: 8px;
   padding: 32px 16px;
+}
+
+.img-team {
+  display: block;
 }
