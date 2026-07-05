@@ -1,15 +1,20 @@
-.hero-section {
+.hero-main {
   color: #ffffff;
   background-color: #2e2f42;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 188px 141px;
 }
 
-.hero-section .hero-tittle {
+.hero-main .hero-tittle {
   text-align: center;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin: 0;
+  max-width: 496px;
 }
 
 .button-first {
@@ -20,6 +25,7 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 16px 32px;
 }
 
 .button-first:hover {
@@ -31,23 +37,11 @@
   background-color: #404bbf;
 }
 
-.hero-section {
-  padding: 188px 0;
-}
-
-.hero-section {
+.hero-main .container {
   display: flex;
-  flex-direction: column;
-  gap: 48px;
   align-items: center;
   justify-content: center;
-}
-
-.hero-section .hero-tittle {
-  max-width: 496px;
-}
-
-.button-first {
-  height: 56px;
-  width: 169px;
+  max-width: 1158px;
+  flex-direction: column;
+  gap: 48px;
 }

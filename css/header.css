@@ -59,19 +59,19 @@ a {
 }
 
 header {
-  display: flex;
-  justify-content: center;
-}
-.header-container {
-  width: 1158px;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 15px;
-}
-
-.header-block {
+  border-bottom: 1px solid #e7e9fc;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1158px;
+  width: 100%;
+  padding: 24px 15px;
 }
 
 .menu {
@@ -82,5 +82,9 @@ header {
 .contacts-list {
   display: flex;
   gap: 40px;
-  padding: 0;
+}
+
+header nav {
+  margin-left: 76px;
+  flex-grow: 1;
 }

@@ -9,35 +9,25 @@
   color: #434455;
 }
 
-.container-section {
-  letter-spacing: 0.02em;
+.features-section {
+  padding: 120px 141px;
   display: flex;
-  width: 1158px;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-section .container {
+  max-width: 1158px;
+  padding: 0 15px;
 }
 
 .list-one {
-  list-style: none;
-  letter-spacing: 0.02em;
   display: flex;
   gap: 24px;
-}
-
-.features-section {
-  display: flex;
-  justify-content: center;
-  padding: 120px 0;
 }
 
 .container-li {
   display: flex;
   flex-direction: column;
   gap: 8px;
-}
-
-.container-li h3 {
-  margin: 0;
-}
-
-.container-li p {
-  margin: 0;
 }

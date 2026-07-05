@@ -30,41 +30,28 @@
 
 .team-section {
   background-color: #f4f4fd;
-  padding: 120px 0;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  padding: 120px 141px;
 }
 
-.list-two {
-  list-style: none;
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  padding: 0 15px;
-}
-
-.container-team {
-  justify-content: center;
+.team-section .container {
   max-width: 1158px;
   display: flex;
   flex-direction: column;
   gap: 72px;
 }
 
+.list-two {
+  display: flex;
+  gap: 24px;
+  padding: 0 15px;
+}
+
 .team-man {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding: 32px 15px;
-}
-
-.team-heading {
-  margin: 0;
-  padding: 0;
-}
-
-.team-info {
-  margin: 0;
-  padding: 0;
+  padding: 32px 16px;
 }
